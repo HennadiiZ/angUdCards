@@ -1,4 +1,10 @@
-.card-wrapper{
+/* .card-wrapper{
     display: flex;
     flex-wrap: wrap;
+} */
+
+:host{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
