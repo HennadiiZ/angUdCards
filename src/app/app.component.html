@@ -2,12 +2,12 @@
 <div class="card-wrapper">
 
   <app-card 
-  *ngFor="let d of data"
+  *ngFor="let d of data()"
   [title] = "d.title"
   [imageUrl] = "d.url"
   [text] = "d.text"
   [username] = "d.userName"
   >
   </app-card>
-  
+
 </div>
