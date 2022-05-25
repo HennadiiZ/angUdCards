@@ -1,4 +1,26 @@
 
 <div class="card-wrapper">
-  <app-card></app-card>
+  <app-card 
+  [title] = "data[0].title"
+  [imageUrl] = "data[0].url"
+  [text] = "data[0].text"
+  [username] = "data[0].userName"
+  >
+  </app-card>
+
+  <app-card 
+  [title] = "data[1].title"
+  [imageUrl] = "data[1].url"
+  [text] = "data[1].text"
+  [username] = "data[1].userName"
+  >
+  </app-card>
+
+  <app-card 
+  [title] = "data[2].title"
+  [imageUrl] = "data[2].url"
+  [text] = "data[2].text"
+  [username] = "data[2].userName"
+  >
+  </app-card>
 </div>
